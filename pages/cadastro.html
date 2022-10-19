@@ -13,10 +13,62 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/cabecalho.css">
+    <link rel="stylesheet" href="../css/principal-inicial.css">
+    <link rel="stylesheet" href="../css/principal-B.css">
+    <link rel="stylesheet" href="../css/formulario-A.css">
+    <link rel="stylesheet" href="../css/rodape.css">
+
+    <script src="https://kit.fontawesome.com/050214c9c1.js" crossorigin="anonymous"></script>
 
     <title>AdoPet - Cadastro</title>
 </head>
 <body>
-    
+    <main class="principalB">
+        <div class="cabecalho">
+            <img src="../img/casa_icon.svg" alt="Logo de home" class="cabecalho__icone">
+            <img src="../img/message_icon.svg" alt="Logo de home" class="cabecalho__icone">    
+        </div>
+
+        <div class="principalA__conteudo">
+
+            <img src="../img/logo_azul.svg" alt="Logo clara do adopet" class="principalB__logo">
+            
+            
+            <p class="principalB__descricao">Ainda não tem cadastro?</p>
+            <p class="principalB__descricao">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+            
+            <form action="./index.html" class="formularioA">
+
+                <label for="cadastro__email">Email</label>
+                <input type="email" class="formularioA__entrada" id="cadastro__email" placeholder="Escolha seu melhor email" required>
+
+                <label for="cadastro__nome">Nome</label>
+                <input type="text" class="formularioA__entrada" id="cadastro__nome" placeholder="Digite seu nome completo" required>
+                
+                <label for="cadastro__senha">Senha</label>
+
+                <div class="container">
+                    <input type="password" class="formularioA__entrada" id="cadastro__senha" placeholder="Crie uma Senha" required>
+                    <i class="fa-regular fa-eye"></i>
+                </div>
+
+                <label for="cadastro__senhaConfirma">Confirme sua senha</label>
+
+                <div class="container">
+                    <input type="password" class="formularioA__entrada" id="cadastro__senhaConfirma" placeholder="Repita a senha acima" required>
+                    <i class="fa-regular fa-eye"></i>
+                </div>
+        
+                <input type="submit" class="botao botao__cadastrar" value="cadastrar">
+
+            </form>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - desenvolvido pela Alura</p>
+    </footer>
+
 </body>
 </html>

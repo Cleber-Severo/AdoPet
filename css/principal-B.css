@@ -1,0 +1,39 @@
+.principalB {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    
+    background: 
+    url("../img/Patas.svg") 100% 0% no-repeat,
+    url("../img/header_fundo.svg") no-repeat , 
+    url("../img/lateralEsq_fundo.svg") 0% 90% no-repeat; 
+    background-color: #FFFFFF; 
+}
+
+.principalB__descricao {
+    margin: 0;
+    margin-bottom: 1rem;
+
+    color: var(--azul);
+}
+
+.principalB__logo {
+    align-self: center;
+
+    padding-bottom: .5rem;
+
+    margin-top: -20px;
+
+    width: 70%;
+}
+
+.login__logo {
+    margin-top: 1rem;
+}
+
+.descricao__login{
+    margin: 2rem 0;
+}
+
+.senha__login {
+    margin-top: 1.5rem;
+}

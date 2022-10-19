@@ -30,4 +30,10 @@ body {
 
     padding: .5rem 0;
     width: 75%;
+
+    transition: all .3s ease;
+}
+
+.botao:hover {
+    background-color: var(--coral-claro);
 }

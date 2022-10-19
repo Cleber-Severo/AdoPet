@@ -1,0 +1,65 @@
+.formularioA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: .5rem;
+}
+
+.formularioA input {
+    position: relative;
+}
+
+.formularioA label {
+    color: var(--cinza);
+
+    display: block;
+    
+    margin-bottom: .5rem;
+}
+
+.formularioA__entrada {
+    background-color: var(--cinza-fundos);
+    
+    border: none;
+    border-radius: 6px;
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    width: 80vw;
+}
+
+.formularioA__entrada::placeholder {
+    color: var(--cinza-claro);
+    text-align: center;
+    font-size: 12px;
+}
+
+.fa-eye {
+    color: var(--cinza-claro);
+
+    position: relative;
+
+    margin-left: -35px;
+}
+
+.botao__cadastrar {
+    margin-top: 1rem;
+
+    border: none;
+}
+
+.formularioA__recupera-senha {
+    margin-bottom: 1rem;
+
+    color: var(--coral);
+    text-decoration: underline;
+}
+
+.formularioA__recupera-senha:hover {
+    color: blue;
+}
+
