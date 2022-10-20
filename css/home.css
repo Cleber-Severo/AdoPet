@@ -63,3 +63,28 @@
 .pet-descricao__contato--texto {
     font-size: 10px;
 }
+
+@media screen and (min-width: 768px) and (orientation : landscape) {
+    .conteudo__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+
+        margin: 0 1rem;
+    }
+    
+    .conteudo__pet {
+        margin: 0;
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .conteudo__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+
+        margin: 2rem 14rem;
+    }
+}
