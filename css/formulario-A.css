@@ -41,13 +41,16 @@
 .fa-eye {
     color: var(--cinza-claro);
 
+    cursor: pointer;
+
     position: relative;
 
     margin-left: -35px;
 }
 
 .botao__cadastrar {
-    margin-top: 1rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
 
     border: none;
 }

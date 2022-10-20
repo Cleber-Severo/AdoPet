@@ -1,14 +1,10 @@
 .principalC {
     width: 100vw;
-    height: calc(100vh - 80px);
+   
     
     background: 
     url("../img/header_fundo.svg") no-repeat;
+    background-size: 22rem;
     background-color: #FFFFFF; 
-}
-
-.conteudo__pet {
-    display: grid;
-    grid-template-columns: auto 1fr;
 }
 

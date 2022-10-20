@@ -1,11 +1,13 @@
 .principalA {
     width: 100vw;
-    height: calc(100vh - 80px);
+    height: 90vh;
     
     background: 
     url("../img/header_fundo.svg") no-repeat , 
     url("../img/inicial_lateralfundo.svg") 100% 50% no-repeat, 
     url("../img/petLogo_fundo.svg") 33.66% 108% no-repeat;
+
+    background-size: 20rem, 5rem, 14rem;
     background-color: var(--azul); 
 }
 
@@ -24,6 +26,7 @@
 
     text-align: center;
     padding: 1.8rem 4rem 0 4rem;
+
 }
 
 .principalA__conteudo a:first-of-type {
