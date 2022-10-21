@@ -42,3 +42,9 @@ body {
 .botao:hover {
     background-color: var(--coral-claro);
 }
+
+@media screen and (min-width: 768px) {
+    .botao {
+        width: 50%;
+    }
+}

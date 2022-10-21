@@ -66,3 +66,9 @@
     color: blue;
 }
 
+
+@media screen and (min-width: 768px) {
+    .formularioA__entrada {
+        width: 45vw;
+    }
+}

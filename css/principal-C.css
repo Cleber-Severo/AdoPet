@@ -8,3 +8,9 @@
     background-color: #FFFFFF; 
 }
 
+@media screen and (min-width: 768px) {
+    .principalC {
+    background: url("../img/header_fundo.svg") 0 -10% no-repeat;
+       background-size: 40rem;
+    }
+}

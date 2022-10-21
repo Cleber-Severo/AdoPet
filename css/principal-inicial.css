@@ -50,3 +50,37 @@
 
     margin-bottom: 1.5rem;
 }
+
+.descricao__tablet {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .principalA {
+        background-position: 0 0, 100% 50%, 48% 108%;
+        background-size: 28rem, 6rem, 16rem;
+    }
+
+    .principalA__conteudo {
+        margin: 0 auto;
+    }
+
+    .principalA__descricao {
+    line-height: 26px;
+    display: none;
+
+    margin-bottom: 1.5rem;
+    width: 50%;
+    align-self: center;
+    }
+
+    .descricao__tablet {
+        display: block;
+    }
+    
+    .alinhamento_tablet {
+        width: 60%;
+        
+    }
+}

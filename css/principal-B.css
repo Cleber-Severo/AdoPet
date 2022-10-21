@@ -44,3 +44,24 @@
 .senha__login {
     margin-top: 1.5rem;
 }
+
+@media screen and (min-width: 768px) {
+    
+    .principalB {
+        background: 
+    url("../img/Patas.svg") 100% 0% no-repeat,
+    url("../img/header_fundo.svg") no-repeat , 
+    url("../img/inicial_lateralfundo.svg") 100% 90% no-repeat; 
+
+    background-size: 12rem, 28rem, 6rem;
+    background-color: #FFFFFF; 
+
+    }
+    
+    .principalB__descricao {
+        margin: 0;
+        margin-bottom: 1rem;
+
+        color: var(--azul);
+    }
+}
