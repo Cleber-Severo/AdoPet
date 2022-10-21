@@ -1,17 +1,18 @@
 .cabecalho {   
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
     position: relative;
 
     padding: 2rem 2rem;
 
     margin-bottom: 2rem;
-
     
 }
 
+.cabecalho__home-alinhamento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
 .cabecalho__icone {
     position: relative;
     display: inline-block;

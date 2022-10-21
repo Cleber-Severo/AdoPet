@@ -13,10 +13,51 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/cabecalho.css">
+    <link rel="stylesheet" href="../css/principal-inicial.css">
+    <link rel="stylesheet" href="../css/principal-C.css">
+    <link rel="stylesheet" href="../css/principal-B.css">
+    <link rel="stylesheet" href="../css/formulario-A.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/mensagem.css">
+    <link rel="stylesheet" href="../css/rodape.css">
 
-    <title>AdoPet - Contato</title>
+    <script src="https://kit.fontawesome.com/050214c9c1.js" crossorigin="anonymous"></script>
+
+    <title>AdoPet - Mensagem</title>
 </head>
 <body>
-    
+     <main class="contato">
+        <div class="cabecalho cabecalho__home-alinhamento">
+            <div class="cabecalho__alinhamento">
+                <a href="../pages/home.html"><img src="../img/casa_icon.svg" alt="Logo de home" class="cabecalho__icone"></a>
+                <a href="../pages/mensagem.html"><img src="../img/message_icon.svg" alt="Logo de home" class="cabecalho__icone"></a>
+            </div>
+            <img src="../img/Usuario.svg" alt="icone do Usuario" class="cabecalho__user">    
+        </div>
+
+       <p class="principalB__descricao alinha-texto">Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
+        
+       <form action="" class="formulario-B">
+
+        <label for="nome" class="formulario-B__titulo">Nome</label>
+        <input type="text" id="nome" placeholder="Insira seu nome completo" class="formulario-B__entrada" required>
+
+        <label for="telefone" class="formulario-B__titulo">Telefone</label>
+        <input type="tel" id="telefone" placeholder="Insira seu telefone e/ou whatsapp" class="formulario-B__entrada" required>
+
+        <label for="pet_nome" class="formulario-B__titulo">Nome do animal</label>
+        <input type="text" id="pet_nome" placeholder="Por qual animal voce se interessou" class="formulario-B__entrada" required>
+
+        <label for="mensagem" class="formulario-B__titulo">Mensagem</label>
+        <textarea cols="50" rows="5" id="mensagem" placeholder="Escreva sua mensagem"  class="formulario-B__entrada" required></textarea>
+
+        <input type="submit" value="enviar" class="botao botao__cadastrar">
+       </form>
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - desenvolvido pela Alura</p>
+    </footer>
 </body>
 </html>
