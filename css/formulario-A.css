@@ -38,7 +38,7 @@
     font-size: 12px;
 }
 
-.fa-eye {
+.fa-eye, .fa-eye-slash {
     color: var(--cinza-claro);
 
     cursor: pointer;
