@@ -14,7 +14,7 @@ Challenge creators:<br>
 **- Antônio Evaldo**
 
 ## How does it work ?
-The web application built in this project is a adoption site where the user can sign in or signup firstly and then choose a pet from the home page for adoption. After that selection the user has to get in touch organizations in the message page to continue de adoption. All the pages are responsive so they can be seen at any screen sice or device.
+The web application built in this project is an pet adoption site where the user can sign in or signup firstly and then choose a pet from the home page for adoption. After that selection the user has to get in touch with the organization in the message page to continue the process. All the pages are responsive so they can be seen at **any screen size or device**.
 
 **warning: the main goal is to build a html and css project, so the form validation features have not yet been implemented**
 
