@@ -20,6 +20,8 @@ body {
     height: 100%;
 
     box-sizing: border-box;
+
+    overflow-x: hidden;
 }
 
 .botao {
@@ -45,6 +47,8 @@ body {
 
 @media screen and (min-width: 768px) {
     .botao {
+        font-size: 18px;
+
         width: 50%;
     }
 }

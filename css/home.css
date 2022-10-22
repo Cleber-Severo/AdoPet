@@ -3,7 +3,6 @@
     grid-template-columns: auto 1fr;
     justify-content: center;
     align-content: center;
-
     column-gap: .8rem;
 
     background-color: #f7f7f7aa;
@@ -14,6 +13,7 @@
 
 .alinha-texto {
     text-align: center;
+
     padding: 0 5rem;
     padding-top: 1.2rem;
 
@@ -37,6 +37,7 @@
 
 .pet-descricao__local {
     font-size: 12px;
+
     margin: 0;
     margin-bottom: .5rem;
 }
@@ -55,9 +56,10 @@
 }
 
 .pet-descricao__contato--imagem {
-    width: 18px;
+     margin-right: .7rem;
+
+    width: 18px; 
     height: 18px;
-    margin-right: .7rem;
 }
 
 .pet-descricao__contato--texto {
@@ -75,29 +77,40 @@
     
     .conteudo__pet {
         margin: 0;
-        
     }
 }
 
 @media screen and (min-width: 768px) {
     .conteudo__container{
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-
-    }
-
-    .conteudo__pet {
-        margin: 0 2rem;
     }
 }
 
 @media screen and (min-width: 1024px) {
+
+    .principalC__conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100vw;
+    }
+
     .conteudo__container{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
+        grid-template-columns: repeat(3, auto);
+        gap: 1rem;
+        justify-content: center;
+        align-content: center;
 
         margin: 2rem 14rem;
+        padding: 0 8rem;
+
+        box-sizing: border-box;
+        
+        width: 100vw;
+    }
+     .conteudo__pet {
+        margin: 0;
+        width: 100%;
     }
 }

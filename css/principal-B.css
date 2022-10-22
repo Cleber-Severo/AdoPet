@@ -35,6 +35,7 @@
 
 .login__logo {
     margin-top: 1rem;
+    margin-bottom: 0;
 }
 
 .descricao__login{
@@ -59,9 +60,20 @@
     }
     
     .principalB__descricao {
-        margin: 0;
-        margin-bottom: 1rem;
+        font-size: 18px;
 
-        color: var(--azul);
+        margin-bottom: 2rem;
     }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .principalB {
+        background-size: 12rem, 36rem, 6.2rem;
+    }
+
+    .principalB__descricao {
+        margin: 1rem 0;
+    }
+    
 }

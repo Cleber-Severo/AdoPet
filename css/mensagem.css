@@ -29,6 +29,15 @@
 
 }
 
+.formulario-B__texto {
+    font-size: 21px;
+    font-weight: 600;
+
+    color: var(--cinza);
+
+    margin: 1rem 0;
+}
+
 .formulario-B__titulo {
     align-self: flex-start;
 
@@ -37,6 +46,14 @@
 
     color: var(--azul);
     
+}
+
+.formulario-B__editar {
+    font-size: 12px;
+
+    color: var(--coral);
+
+    margin-bottom: 1rem;
 }
 
 .formulario-B__entrada {
@@ -63,9 +80,7 @@
 
 @media screen and (min-width: 768px) {
     .contato{
-     
         background: 
-   
     url("../img/header_fundo.svg") 0 -10% no-repeat , 
     url("../img/inicial_lateralfundo.svg") 100% 90% no-repeat; 
 
@@ -74,5 +89,28 @@
 
     .formulario-B {
         width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contato{
+        background: 
+    url("../img/header_fundo.svg") 0 -10% no-repeat , 
+    url("../img/inicial_lateralfundo.svg") 100% 90% no-repeat; 
+
+    background-size: 36rem, 7rem;
+    }
+
+    .contato p {
+        width: 50%;
+
+        margin: 0 auto;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+
+    .formulario-B {
+        width: 45%;
+        margin-bottom: 3rem;
     }
 }

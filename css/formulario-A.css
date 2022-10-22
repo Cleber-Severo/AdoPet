@@ -71,4 +71,33 @@
     .formularioA__entrada {
         width: 45vw;
     }
+
+    .botao__cadastrar {
+        margin-top: 2rem;
+
+        width: 20vw;
+    }
+
+     .login__logo {
+        margin-top: -.5rem;
+
+        width: 30%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .formularioA__entrada {
+        width: 35vw;
+    }
+
+    
+     .login__logo {
+        margin-top: -2.5rem;
+        margin-bottom: 0;
+    }
+    
+    .botao__cadastrar {
+        margin-top: 1rem;
+    }
 }
